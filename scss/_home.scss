@@ -1,0 +1,96 @@
+body {  
+    font-family:'Libre Baskerville', serif;
+  }
+
+  .logoEstilo{
+	width: 150px;
+
+}
+
+  .iconoEstilo {
+	width: 50px;
+	height: 50px;
+  margin-right: 5px;
+     padding: 10px;
+     transition:all 500ms;
+     &.Traslado:hover{
+         transform: scale(1.2);
+     }
+}
+   
+
+   
+
+
+#header{
+	
+            
+
+              ul li a{
+		            text-align: center;
+		       
+		             }
+
+
+		    ul li   {
+		                list-style:none;
+		                display: inline-block;   
+		              
+		            }
+
+        }
+                   a {
+		                text-decoration: none;
+		                font-size: 20px;
+		                color:#3b4a42;
+		            }
+
+             .navbar .navItemEstilo{
+               padding-left: 4rem;
+             
+              }
+
+              .Iconos{
+                
+              }
+
+      @media all and (min-width: 360px){
+               
+      }
+
+
+.headerNav{
+	color: #2176ff;
+}
+
+
+   #Principal{
+
+   }
+  #contentPrincipal{
+	
+                        }
+ h3{
+ 	display:block;
+ margin-block-start: 0.67em;
+ margin-block-end: 0.67em;
+   text-align: center;
+ }
+
+ #footer{
+
+ 	   width: 100%;
+ 	   height: 150px;
+    padding-top: 30px;
+     
+					
+    background: rgb(168,46,96);
+    background: linear-gradient(90deg, rgba(168,46,96,1) 0%, rgba(255,167,138,1) 41%, rgba(255,218,0,1) 100%);
+
+     
+
+     .nav-link .footerItem{
+         color: black;
+     }
+ }
+

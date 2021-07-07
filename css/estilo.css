@@ -1,0 +1,81 @@
+body {
+  font-family: "Libre Baskerville", serif;
+}
+
+.logoEstilo {
+  width: 150px;
+}
+
+.iconoEstilo {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  padding: 10px;
+  transition: all 500ms;
+}
+.iconoEstilo.Traslado:hover {
+  transform: scale(1.2);
+}
+
+#header ul li a {
+  text-align: center;
+}
+#header ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #3b4a42;
+}
+
+.navbar .navItemEstilo {
+  padding-left: 4rem;
+}
+
+.headerNav {
+  color: #2176ff;
+}
+
+h3 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  text-align: center;
+}
+
+#footer {
+  width: 100%;
+  height: 150px;
+  padding-top: 30px;
+  background: #a82e60;
+  background: linear-gradient(90deg, #a82e60 0%, #ffa78a 41%, #ffda00 100%);
+}
+#footer .nav-link .footerItem {
+  color: black;
+}
+
+#coleccion {
+  max-width: 1080px;
+}
+
+#productoMujer .producto {
+  padding: 15px;
+}
+#productoMujer .btnEstilo {
+  color: #fff;
+  background-color: #3d3740;
+}
+#productoMujer .textEstilo {
+  font-size: 1.2rem;
+}
+
+#cuenta {
+  height: 300px;
+  width: 500px;
+  margin: 30px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
