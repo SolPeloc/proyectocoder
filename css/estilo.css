@@ -31,7 +31,7 @@ a {
   color: #3b4a42;
 }
 
-.navbar .navItemEstilo {
+.navItemEstilo {
   padding-left: 4rem;
 }
 
@@ -48,13 +48,22 @@ h3 {
 
 #footer {
   width: 100%;
-  height: 150px;
-  padding-top: 30px;
-  background: #a82e60;
-  background: linear-gradient(90deg, #a82e60 0%, #ffa78a 41%, #ffda00 100%);
+  height: 180px;
+  background: #959994;
+  background: linear-gradient(90deg, #959994 0%, #a1afb3 41%, #dea7ee 100%);
 }
-#footer .nav-link .footerItem {
-  color: black;
+#footer .navFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#footer .navItemFooter {
+  padding-left: 4rem;
+}
+#footer .redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #coleccion {
