@@ -9,49 +9,80 @@
 	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
 </head>
 <body>
-	<div id="header">
-		<div id="headerBotonera">
-		<div>
-		<a href="../index.html"><img class="logoEstilo" src="../multimedia/icono.jpeg" alt="icono"></a>
-		</div>
-		
-           <div>
-			<ul>
-			    <li> <a href="../index.html">Inicio</a></li>
-			    <li> <a href="newin.html">New in</a></li>
-			    <li> <a href="mujer.html">Mujer</a> </li>
-			    <li> <a href="teens.html"> Teens</li>
-			    <li> <a href="accesorios.html">Accesorios</a></li>
-			</ul>
-		    </div>
-                 <div>
-				<a href="carritodecompras.html"><img class="iconoEstilo Traslado"src="../multimedia/carrito.png" alt="carrito"></a>
-				<a href="cuenta.html"><img class="iconoEstilo Traslado" src="../multimedia/cuenta.png" alt="cuenta"></a>
-			    </div>
-      </div>
-	</div>
-	
+	 <div class="container-fluid px-0">
+                  <!--HEADER-->
+                 <div id="header">
+			    	<nav class= "navbar navbar-expand-lg navbar-light  px-0">
+							    		   
+				        <a class="navbar-brand" href="../index.html"><img class="logoEstilo" src="../multimedia/icono2.png" alt="icono"></a>
+		                           <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	           					 <span class="navbar-toggler-icon"></span>
+	                              </button>    
+
+                              <div id="navbarNav" class=" navbar-collapse collapse">
+									<ul class="navbar-nav">
+									    <li class=" active navItemEstilo"> <a class="nav-link" href="../index.html">Inicio</a></li>
+						                <li class="navItemEstilo"> <a class="nav-link" href="newin.html">Coleccion</a></li>
+									    <li class="navItemEstilo "> <a class="nav-link" href="mujer.html">Mujer</a></li>
+									    <li class=" navItemEstilo"> <a class="nav-link" href="teens.html">Teens</a></li>
+									    <li class=" navItemEstilo"> <a class="nav-link" href="accesorios.html">Accesorios</a></li>
+									</ul>
+					      </div>
+                        <div class="Iconos">
+						<a href="carritodecompras.html"><img class="iconoEstilo Traslado" src="../multimedia/carrito.png" alt="carrito"></a>
+						<a href="cuenta.html"><img class="iconoEstilo Traslado" src="../multimedia/cuenta.png" alt="cuenta"></a>
+					</div>
+
+                      </nav>
+					
+			      
+	      </div>
+
+                  <!--NOSOTROS-->
+
 	           <div id="content">
                	     <div>
-               	  	
+               	  	Atia Multimarca, es una pequeña empresa familiar
                	  </div>
                        
                </div>
 
-    <div id="footer">
-			  	<div class="contentFooter">
-					<ul>
-					    <li><a href="./acercadenosotros.html">Acerca de nosotros</a></li>
-					    <li><a href="preguntasfrecuentes.html">Preguntas frecuentes</a></li>
-					    <li><a href="./guiadecompras.html">Guia de compras</a></li>
-					    <li><a href="./paginas/contacto.html">Contacto</a></li>
-					</ul>
-                    </div>
-				</div>
+           
+
+	<!--FOOTER-->
+               <div id="footer" class=" navbar-light">
+
+                       <div class=" container-fluid contentFooter"> 
+                  <ul class=" d-flex flex row flex grow px-3 py-4 navbar-nav navFooter ">
+                <li class="nav-item">
+                  <a class="nav-link" href="acercadenosotros.html">Acerca de nosotros</a>
+                </li>
+                <li class=" nav-item ">
+                  <a class="nav-link" href="guiadecompras.html">Guia de compras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="preguntasfrecuentes.html">Preguntas frecuentes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html" >Contacto</a>
+                </li>
+                    </ul>
+
+                    <div class="redes">
+                  <a href="https://www.facebook.com/ATIAMULTIMARCA"><img class="iconoEstilo Traslado" src="../multimedia/facebook.png" alt="face"></a>
+            <a href="https://www.instagram.com/atia_multimarca/"><img class="iconoEstilo Traslado" src="../multimedia/instagram.png" alt="ig"></a>
+
+                </div>
+              </div>
+                </div>
 
 
-   <script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+     </div>
+
+
+
+   <script src="../bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
 
