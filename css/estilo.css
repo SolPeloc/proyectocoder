@@ -116,8 +116,6 @@ h3 {
 #contentGuia .guiaEstilo {
   width: 70%;
   height: 100%;
-  margin-left: 40px;
-  margin-right: 40px;
 }
 #contentGuia .guiaEstilo .cardEstilo {
   color: black;
@@ -137,9 +135,23 @@ h3 {
   width: 100%;
 }
 #contacto .contactoEstilo {
+  height: 800px;
+  width: 50%;
+  margin-left: 100px;
+}
+#contacto .contactoEstilo .btnContacto {
+  color: #fff;
+  background-color: #3d3740;
+  border: black;
+}
+
+#contentPreguntas {
+  height: 800px;
+}
+#contentPreguntas .preguntasEstilo {
   height: 500px;
-  width: 60%;
-  margin: 50px;
+  background-color: #bab2c1;
+  color: white;
 }
 
 /*# sourceMappingURL=estilo.css.map */
