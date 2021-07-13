@@ -71,7 +71,12 @@ h3 {
 }
 
 #coleccion {
+  height: 800px;
   max-width: 1080px;
+}
+
+#mujer {
+  width: 100%;
 }
 
 #productoMujer .producto {
@@ -149,9 +154,15 @@ h3 {
   height: 800px;
 }
 #contentPreguntas .preguntasEstilo {
-  height: 500px;
-  background-color: #bab2c1;
-  color: white;
+  width: 70%;
+  height: 100%;
+}
+#contentPreguntas .preguntasEstilo .cardEstiloPreguntas {
+  color: black;
+}
+#contentPreguntas .preguntasEstilo .cardEstiloPreguntas .btnCardPreguntas {
+  color: #6f5454;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=estilo.css.map */

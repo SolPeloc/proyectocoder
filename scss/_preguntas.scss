@@ -1,15 +1,27 @@
+
+
 #contentPreguntas{
            
-            height:800px;
+            height:$height;
 
           .preguntasEstilo{
               
-              height: 500px;
-              
-              background-color: #bab2c1;
-              color: white;
+             width: 70%;
+		     height: 100%;
+           
+
+           .cardEstiloPreguntas{
+               color: black;
+
+           .btnCardPreguntas{
+           	                 color:#6f5454;
+							 text-decoration: none;
+				            
+           }
           }
 
+
+           }
 
 
 

@@ -11,84 +11,103 @@
 <body>
 	 <div class="container-fluid px-0">
                   <!--HEADER-->
-                 <div id="header">
+          <div id="header">
 			    	<nav class= "navbar navbar-expand-lg navbar-light  px-0">
 							    		   
 				        <a class="navbar-brand" href="../index.html"><img class="logoEstilo" src="../multimedia/icono2.png" alt="icono"></a>
-		                           <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	           					 <span class="navbar-toggler-icon"></span>
-	                              </button>    
-
-                              <div id="navbarNav" class=" navbar-collapse collapse">
+		                   <button class="navbar-toggler mr-5" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	           					         <span class="navbar-toggler-icon"></span>
+	                   </button>    
+                 <div id="navbarNav" class=" navbar-collapse collapse">
 									<ul class="navbar-nav">
-									    <li class=" active navItemEstilo"> <a class="nav-link" href="../index.html">Inicio</a></li>
-						                <li class="navItemEstilo"> <a class="nav-link" href="newin.html">Coleccion</a></li>
-									    <li class="navItemEstilo "> <a class="nav-link" href="mujer.html">Mujer</a></li>
-									    <li class=" navItemEstilo"> <a class="nav-link" href="teens.html">Teens</a></li>
-									    <li class=" navItemEstilo"> <a class="nav-link" href="accesorios.html">Accesorios</a></li>
+									    <li class="navItemEstilo"> <a class="nav-link" href="../index.html">Inicio</a></li>
+						             <li class="navItemEstilo"> <a class="nav-link" href="newin.html">Coleccion</a></li>
+									   <li class="navItemEstilo "> <a class="nav-link" href="mujer.html">Mujer</a></li>
+									      <li class=" navItemEstilo"> <a class="nav-link" href="teens.html">Teens</a></li>
+									     <li class=" navItemEstilo"> <a class="nav-link" href="accesorios.html">Accesorios</a></li>
 									</ul>
 					      </div>
-                        <div class="Iconos">
-						<a href="carritodecompras.html"><img class="iconoEstilo Traslado" src="../multimedia/carrito.png" alt="carrito"></a>
-						<a href="cuenta.html"><img class="iconoEstilo Traslado" src="../multimedia/cuenta.png" alt="cuenta"></a>
+            <div class="Iconos">
+  						<a href="carritodecompras.html"><img class="iconoEstilo Traslado" src="../multimedia/carrito.png" alt="carrito"></a>
+  						<a href="cuenta.html"><img class="iconoEstilo Traslado" src="../multimedia/cuenta.png" alt="cuenta"></a>
 					</div>
-
-                      </nav>
-					
-			      
+         </nav>     
 	      </div>
 
                   <!--PREGUNTAS FRECUENTES-->
 
 	           <div id="contentPreguntas">
-               	     <div class=" mt-5  preguntasEstilo container ">
-                      <h5 class="font-weight-bold text-center">DUDAS</h5>
-                      <div class="text-justify text-left "> 
-                       ¿Los productos cuentan con stock?
-                         Sí. Sólo mostramos productos con stock dentro del sitio.
-                          A CAMBIAR FORMATO
-                     </div>
-                           
-                      
-
-               	  </div>
-                       
+          <div id="contentGuia" class="container">
+          <div class="accordion preguntasEstilo ml-4 mt-4" id="accordionExample">
+           <div class="card cardEstiloPreguntas">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btnCardPreguntas btn-block text-left " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  ¿Los productos cuentan con stock?
+                </button>
+             </h2>
+           </div>
+               <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body cardBodyEstilo">
+                Si. Solo mostramos productos con stock dentro del sitio.
+              </div>
+            </div>
+          </div>
+          <div class="card cardEstiloPreguntas">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btnCardPreguntas btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Devolución de productos
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body cardBodyEstilo">
+                El producto deberá estar SIN USO y con sus ETIQUETAS y ENVOLTORIOS ORIGINALES. No lavados ni usados, sin olores ni manchas, sin marcas o alteraciones hechas por el cliente.
+              </div>
+            </div>
+          </div>
+          <div class="card cardEstiloPreguntas">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btnCardPreguntas btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                 Local
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse " aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body cardBodyEstilo">
+                Nuestro local se encuentra en Ruta 205 KM.55,100 N°1977, Curva Smata, Alejandro Petión, Cañuelas, Buenos Aires.
                </div>
-
-           
-
-	<!--FOOTER-->
+            </div>
+          </div>
+        </div>  
+               </div>  
+                </div>
+	                  <!--FOOTER-->
                <div id="footer" class=" navbar-light">
-
-                       <div class=" container-fluid contentFooter"> 
+                 <div class=" container-fluid contentFooter"> 
                   <ul class=" d-flex flex row flex grow px-3 py-4 navbar-nav navFooter ">
-                <li class="nav-item">
+                    <li class="nav-item">
                   <a class="nav-link" href="acercadenosotros.html">Acerca de nosotros</a>
                 </li>
                 <li class=" nav-item ">
                   <a class="nav-link" href="guiadecompras.html">Guia de compras</a>
-                </li>
+                    </li>
                 <li class="nav-item">
                   <a class="nav-link" href="preguntasfrecuentes.html">Preguntas frecuentes</a>
-                </li>
-                <li class="nav-item">
+                    </li>
+                     <li class="nav-item">
                   <a class="nav-link" href="contacto.html" >Contacto</a>
                 </li>
-                    </ul>
-
-                    <div class="redes">
+            </ul>
+                <div class="redes">
                   <a href="https://www.facebook.com/ATIAMULTIMARCA"><img class="iconoEstilo Traslado" src="../multimedia/facebook.png" alt="face"></a>
-            <a href="https://www.instagram.com/atia_multimarca/"><img class="iconoEstilo Traslado" src="../multimedia/instagram.png" alt="ig"></a>
-
-                </div>
-              </div>
-                </div>
-
-
-     </div>
-
-
-
+                    <a href="https://www.instagram.com/atia_multimarca/"><img class="iconoEstilo Traslado" src="../multimedia/instagram.png" alt="ig"></a>
+               </div>
+             </div>
+          </div>
+        </div>
    <script src="../bootstrap/js/jquery-3.5.1.slim.min.js"></script>
     <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
 
