@@ -35,10 +35,28 @@ a {
   padding-left: 4rem;
 }
 
+@media all and (max-width: 360px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logoEstilo {
+    width: 80px;
+  }
+
+  .navbar-nav {
+    margin-inline-end: 200px;
+  }
+}
 .headerNav {
   color: #2176ff;
 }
 
+#Principal {
+  height: 800px;
+}
 h3 {
   display: block;
   margin-block-start: 0.67em;

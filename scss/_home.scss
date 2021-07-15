@@ -52,8 +52,23 @@ body {
                 
               }
 
-      @media all and (min-width: 360px){
-               
+      @media all and (max-width:360px){
+              .navbar{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+             
+              } 
+              .logoEstilo{
+                width: 80px;
+              }
+              .navbar-nav{
+                margin-inline-end:200px;
+              }
+              .navbar-collapse{
+                
+              }
+
       }
 
 
@@ -63,11 +78,16 @@ body {
 
 
    #Principal{
+      height: 800px;
+      .contentPrincipal{
+
+      }
+
+
+
 
    }
-  #contentPrincipal{
-	
-                        }
+  
  h3{
  	display:block;
  margin-block-start: 0.67em;
