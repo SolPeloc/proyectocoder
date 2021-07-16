@@ -45,10 +45,6 @@ a {
   .logoEstilo {
     width: 80px;
   }
-
-  .navbar-nav {
-    margin-inline-end: 200px;
-  }
 }
 .headerNav {
   color: #2176ff;
@@ -66,10 +62,9 @@ h3 {
 
 #footer {
   width: 100%;
-  height: 180px;
+  height: 120px;
 }
 #footer .contentFooter {
-  height: 100%;
   width: 100%;
   background: #959994;
   background: linear-gradient(90deg, #959994 0%, #a1afb3 41%, #dea7ee 100%);
@@ -86,6 +81,15 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+@media all and (max-width: 414px) {
+  #footer .contentFooter .navFooter {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: unset;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 #coleccion {
