@@ -50,14 +50,16 @@ a {
   color: #2176ff;
 }
 
-#Principal {
-  height: 800px;
+#Principal .contentPrincipal {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
+
 h3 {
   display: block;
-  margin-block-start: 0.67em;
   margin-block-end: 0.67em;
   text-align: center;
+  margin-top: 1.2em;
 }
 
 #footer {
@@ -92,9 +94,25 @@ h3 {
   }
 }
 
-#coleccion {
-  height: 800px;
-  max-width: 1080px;
+#coleccion .contentCol {
+  margin-top: 50px;
+}
+#coleccion .parrafoEstiloCard {
+  padding-top: 15px;
+  font-size: 1.3em;
+  text-align: justify;
+  color: #29526a;
+  font-weight: bold;
+}
+#coleccion .btnEstiloCol {
+  color: #fff;
+  background-color: #3d3740;
+  border-color: black;
+}
+#coleccion .cardEstilo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #mujer {
