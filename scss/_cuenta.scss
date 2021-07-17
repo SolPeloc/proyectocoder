@@ -3,10 +3,10 @@
     width: 100%;
    
          .cuentaEstilo{  
-
-              height: 500px;
-              width: 45%;
-                margin: 30px;
+               display: flex;
+               flex-direction: column;
+               align-items:center;
+                margin-top: 60px;
 					  .btnEstiloCuenta{
 
 										color: #fff;

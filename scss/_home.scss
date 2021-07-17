@@ -36,6 +36,29 @@ body {
 		              
 		            }
 
+
+           @media all and (max-width:414px){
+              .navbar{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+               .navbar-nav{
+                  display: inline-flex;
+                  flex-direction:column;
+
+               }
+              } 
+              .logoEstilo{
+                width: 80px;
+              }
+              
+              
+
+      }
+
+
+
+
         }
                    a {
 		                text-decoration: none;
@@ -48,26 +71,9 @@ body {
              
               }
 
-              .Iconos{
-                
-              }
+             
 
-      @media all and (max-width:360px){
-              .navbar{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-             
-              } 
-              .logoEstilo{
-                width: 80px;
-              }
-              
-              .navbar-toggler-icon{
-                
-              }
-             
-      }
+     
 
 
 .headerNav{

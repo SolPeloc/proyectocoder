@@ -1,14 +1,14 @@
 #contacto{
    
      height:$height;
-     width: 100%;
+     
 
 
       .contactoEstilo{
-
+             display: inline-block;
             height:$height;
-            width: 50%;
-            margin-left:100px;
+            margin-left: 40px;
+           margin-right: 40px;
 
           .btnContacto{
               color: #fff;

@@ -24,6 +24,20 @@ body {
   list-style: none;
   display: inline-block;
 }
+@media all and (max-width: 414px) {
+  #header .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #header .navbar .navbar-nav {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  #header .logoEstilo {
+    width: 80px;
+  }
+}
 
 a {
   text-decoration: none;
@@ -35,17 +49,6 @@ a {
   padding-left: 4rem;
 }
 
-@media all and (max-width: 360px) {
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .logoEstilo {
-    width: 80px;
-  }
-}
 .headerNav {
   color: #2176ff;
 }
@@ -135,9 +138,10 @@ h3 {
   width: 100%;
 }
 #cuenta .cuentaEstilo {
-  height: 500px;
-  width: 45%;
-  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
 }
 #cuenta .cuentaEstilo .btnEstiloCuenta {
   color: #fff;
@@ -177,12 +181,12 @@ h3 {
 
 #contacto {
   height: 800px;
-  width: 100%;
 }
 #contacto .contactoEstilo {
+  display: inline-block;
   height: 800px;
-  width: 50%;
-  margin-left: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 #contacto .contactoEstilo .btnContacto {
   color: #fff;
