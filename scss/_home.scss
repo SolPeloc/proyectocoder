@@ -10,12 +10,13 @@ body {
   .iconoEstilo {
 	width: 50px;
 	height: 50px;
-  margin-right: 5px;
+  
      padding: 10px;
      transition:all 500ms;
      &.Traslado:hover{
          transform: scale(1.2);
      }
+     
 }
    
 
@@ -45,6 +46,10 @@ body {
                .navbar-nav{
                   display: inline-flex;
                   flex-direction:column;
+                  .navItemEstilo{
+               padding: 1em;
+                margin-left: auto;
+              }
 
                }
               } 
@@ -67,7 +72,7 @@ body {
 		            }
 
              .navItemEstilo{
-               padding-left: 4rem;
+               padding: 2em;
              
               }
 

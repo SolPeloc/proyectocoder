@@ -9,7 +9,6 @@ body {
 .iconoEstilo {
   width: 50px;
   height: 50px;
-  margin-right: 5px;
   padding: 10px;
   transition: all 500ms;
 }
@@ -34,6 +33,10 @@ body {
     display: inline-flex;
     flex-direction: column;
   }
+  #header .navbar .navbar-nav .navItemEstilo {
+    padding: 1em;
+    margin-left: auto;
+  }
   #header .logoEstilo {
     width: 80px;
   }
@@ -46,7 +49,7 @@ a {
 }
 
 .navItemEstilo {
-  padding-left: 4rem;
+  padding: 2em;
 }
 
 .headerNav {
@@ -192,6 +195,7 @@ h3 {
   color: #fff;
   background-color: #3d3740;
   border: black;
+  box-shadow: none;
 }
 
 #contentPreguntas {
