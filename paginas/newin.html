@@ -13,32 +13,45 @@
 	
 			<div class="container-fluid px-0">
                 <!--HEADER-->
-                 <div id="header">
-			    	<nav class= "navbar ml-3 mr-3 navbar-expand-lg navbar-light  px-0">
-							    		   
-				        <a class="navbar-brand" href="../index.html"><img class="logoEstilo" src="../multimedia/icono2.png" alt="icono"></a>
-		                           <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	           					 <span class="navbar-toggler-icon"></span>
-	                              </button>    
-
-                              <div id="navbarNav" class=" navbar-collapse collapse">
-									<ul class="navbar-nav">
-									    <li class="navItemEstilo"> <a class="nav-link" href="../index.html">Inicio</a></li>
-						                <li class="navItemEstilo"> <a class="nav-link" href="newin.html">Coleccion</a></li>
-									    <li class="navItemEstilo "> <a class="nav-link" href="mujer.html">Mujer</a></li>
-									    <li class=" navItemEstilo"> <a class="nav-link" href="teens.html">Teens</a></li>
-									    <li class=" navItemEstilo"> <a class="nav-link" href="accesorios.html">Accesorios</a></li>
-									</ul>
-					      </div>
-                        <div class="Iconos">
-						<a href="carritodecompras.html"><img class="iconoEstilo Traslado" src="../multimedia/carrito.png" alt="carrito"></a>
-						<a href="cuenta.html"><img class="iconoEstilo Traslado" src="../multimedia/cuenta.png" alt="cuenta"></a>
+              <div id="header">
+			    <nav class= "navbar ml-3 mr-3 navbar-expand-lg navbar-light  px-0">      <a class="navbar-brand" href="../index.html"><img class="logoEstilo" src="../multimedia/icono2.png" alt="icono"></a>
+		                 <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	           			     <span class="navbar-toggler-icon"></span>
+	                       </button>    
+                      <div id="navbarNav" class=" navbar-collapse collapse justify-content-end">
+						 <ul class="navbar-nav">
+							 <li class="navItemEstilo"> <a class="nav-link" href="../index.html">Inicio</a></li>
+						            <li class="navItemEstilo"> <a class="nav-link" href="newin.html">Coleccion</a></li>
+							     <li class="navItemEstilo "> <a class="nav-link" href="mujer.html">Mujer</a></li>
+							<li class=" navItemEstilo"> <a class="nav-link" href="teens.html">Teens</a></li>
+						<li class=" navItemEstilo"> <a class="nav-link" href="accesorios.html">Accesorios</a></li>
+                 <li class=" navItemEstilo ml-5"><a href="carritodecompras.html"></a>
+                <button type="button" class="btn px-0 py-0 border-0 " data-toggle="modal" data-target="#exampleModalCenter"><img class="iconoEstilo Traslado" src="../multimedia/carrito.png" alt="carrito">
+		     </button></li>
+                         <!-- Modal -->
+				<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				   <div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+						  <div class="modal-header">
+							    <h5 class="modal-title" id="exampleModalCenterTitle">Carrito de compras</h5>
+							  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					       <span aria-hidden="true">&times;</span>
+					    </button>
 					</div>
-
-                      </nav>
-					
-			      
-	      </div>
+				 <div class="modal-body">
+					  Tu carrito esta vacio
+			</div>
+	     <div class="modal-footer">
+			    <button type="button" class="btn btn-secondary btnContacto" data-dismiss="modal">Cerrar</button>   
+							     </div>
+							    </div>
+							  </div>
+							</div>
+                        <li class=" navItemEstilo "><a href="cuenta.html"><img class="iconoEstilo Traslado" src="../multimedia/cuenta.png" alt="cuenta"></a></li>
+					</ul>
+			     </div>
+               </nav>      
+	       </div>
                   <!--content coleccion-->
                    
                  <div id="coleccion" class="container-fluid">

@@ -1,7 +1,7 @@
 #contacto{
    
      height:$height;
-     
+     width: 100%;
 
 
       .contactoEstilo{
@@ -9,7 +9,7 @@
             height:$height;
             margin-left: 40px;
            margin-right: 40px;
-
+           margin-top:50px;
           .btnContacto{
               color: #fff;
               background-color:#3d3740;

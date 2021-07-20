@@ -12,29 +12,45 @@
 	<div class="container-fluid px-0">
 	
          <!--HEADER-->
-                 <div id="header">
-			    	<nav class= "navbar ml-3 mr-3 navbar-expand-lg navbar-light  px-0">
-							    		   
-				        <a class="navbar-brand" href="../index.html"><img class="logoEstilo" src="../multimedia/icono2.png" alt="icono"></a>
-		                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-	           					 <span class="navbar-toggler-icon"></span>
-	                              </button>    
-
-                              <div id="navbarNav" class=" navbar-collapse collapse">
-									<ul class="navbar-nav">
-									    <li class="  navItemEstilo"> <a class="nav-link" href="../index.html">Inicio</a></li>
-						                <li class="navItemEstilo"> <a class="nav-link" href="newin.html">Coleccion</a></li>
-									    <li class="navItemEstilo "> <a class="nav-link" href="mujer.html">Mujer</a></li>
-									    <li class=" navItemEstilo"> <a class="nav-link" href="teens.html">Teens</a></li>
-									    <li class=" navItemEstilo"> <a class="nav-link" href="accesorios.html">Accesorios</a></li>
-									</ul>
-					        </div>
-                        <div class="Iconos">
-						<a href="carritodecompras.html"><img class="iconoEstilo Traslado" src="../multimedia/carrito.png" alt="carrito"></a>
-						<a href="cuenta.html"><img class="iconoEstilo Traslado" src="../multimedia/cuenta.png" alt="cuenta"></a>
-					</div>
-               </nav>      
-	      </div>
+              <div id="header">
+			     <nav class= "navbar ml-3 mr-3 navbar-expand-lg navbar-light  px-0"><a class="navbar-brand" href="../index.html"><img class="logoEstilo" src="../multimedia/icono2.png" alt="icono"></a>
+		                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	           		 <span class="navbar-toggler-icon"></span>
+	               </button>    
+                 <div id="navbarNav" class=" navbar-collapse collapse justify-content-end">
+			  <ul class="navbar-nav">
+				<li class="  navItemEstilo"> <a class="nav-link" href="../index.html">Inicio</a></li>
+					<li class="navItemEstilo"> <a class="nav-link" href="newin.html">Coleccion</a></li>
+				      <li class="navItemEstilo "> <a class="nav-link" href="mujer.html">Mujer</a></li>
+						<li class=" navItemEstilo"> <a class="nav-link" href="teens.html">Teens</a></li>
+				          <li class=" navItemEstilo"> <a class="nav-link" href="accesorios.html">Accesorios</a></li>
+                      <li class=" navItemEstilo ml-5"><a href="carritodecompras.html"></a>
+               <button type="button" class="btn px-0 py-0 border-0 " data-toggle="modal" data-target="#exampleModalCenter"><img class="iconoEstilo Traslado" src="../multimedia/carrito.png" alt="carrito">
+            </button></li>
+                         <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+           <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">Carrito de compras</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          <div class="modal-body">
+            Tu carrito esta vacio
+         </div>
+        <div class="modal-footer">
+       <button type="button" class="btn btn-secondary btnContacto" data-dismiss="modal">Cerrar</button>  
+     </div>
+   </div>
+      </div>
+          </div>
+             <li class=" navItemEstilo "><a href="cuenta.html"><img class="iconoEstilo Traslado" src="../multimedia/cuenta.png" alt="cuenta"></a></li>
+			 </ul>
+		   </div>    
+          </nav>      
+	    </div>
 
 
               <!--CONTACTO-->
@@ -43,7 +59,7 @@
 
                  	  <h4>Contactanos</h4>
                  	    <form>
-							  <div class="form-group">
+							  <div class="form-group mt-3">
 							    <input type="text" class="form-control" id="Nombre" placeholder="Nombre">
 							      </div>
 							      <div class="form-group">
@@ -84,9 +100,9 @@
 							  </div>
 							</div>
                           </form>
-		   <div class=" py-4  flex-colum">
+		   <div class=" py-5  flex-colum">
 		 	 <h5> Ubicación ATIA:</h5>
-		 	  <iframe class="container " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.899496380587!2d-58.68695518516275!3d-34.98418208523423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd208215d0843b%3A0xd0703ce797c52ced!2sAtia%20Indumentaria%20Ni%C3%B1os%2C%20Mujer%20Y%20Hombres!5e0!3m2!1ses-419!2sar!4v1621785492230!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		 	  <iframe class="container mt-3 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.899496380587!2d-58.68695518516275!3d-34.98418208523423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd208215d0843b%3A0xd0703ce797c52ced!2sAtia%20Indumentaria%20Ni%C3%B1os%2C%20Mujer%20Y%20Hombres!5e0!3m2!1ses-419!2sar!4v1621785492230!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 		   </div>
         </div>      
       </div>

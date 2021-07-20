@@ -2,12 +2,12 @@
 
 			width:100%;
 		    height:$height;
-
+            margin-top: 70px;
 			   .guiaEstilo{
 
-					       width: 70%;
-					       height: 100%;
-					      
+			    display: flex;
+               flex-direction: column;
+               width: 500px;
 					       
 					     .cardEstilo{
 							           color: black;
@@ -15,7 +15,8 @@
 							        .btnCard{
 							            color:#6f5454;
 							            text-decoration: none;
-				                        text-transform: uppercase
+				                        text-transform: uppercase;
+				                        box-shadow: none; 
 							        } 
 
 				                 .cardBodyEstilo{
