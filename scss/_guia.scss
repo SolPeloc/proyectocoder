@@ -1,14 +1,11 @@
 #contentGuia{
 
-			width:100%;
-		    height:$height;
-            margin-top: 70px;
 			   .guiaEstilo{
-
-			    display: flex;
-               flex-direction: column;
-               width: 500px;
-					       
+                 height: 500px;
+			     display: flex;
+                 flex-direction: column;
+                 width: 500px;
+				  margin: 50px;
 					     .cardEstilo{
 							           color: black;
 

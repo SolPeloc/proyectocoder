@@ -3,14 +3,14 @@
 #contentPreguntas{
               
         width:100%;
-          height:$height;
+          
             margin-top: 70px;
 
           .preguntasEstilo{
                display: flex;
                flex-direction: column;
                width: 500px;
-
+                height: 500px;
            .cardEstiloPreguntas{
                color: black;
 

@@ -76,16 +76,14 @@ body {
 
                }
               } 
-              .logoEstilo{
-                width: 80px;
-              }
-              
-              
+                    
 
       }
-
-
+        .btnCarrito{
+          box-shadow:none;
         }
+
+}
                    a {
 		                text-decoration: none;
 		                font-size: 20px;
@@ -109,7 +107,7 @@ body {
       .contentPrincipal{
           margin-top: 50px;
           margin-bottom: 50px;
-          height: 1000px;
+          
       }
 
 
@@ -162,11 +160,10 @@ body {
            justify-content:center;
            align-items: center;
            
-          
-
+  
         }
 
-       }
+    }
 
       @media all and (min-width:750px){
         
@@ -179,18 +176,6 @@ body {
         }
 
        }
-
-
-
-
-
-
-
-
-
-
-
-
 
          
   }
