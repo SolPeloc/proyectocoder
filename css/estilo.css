@@ -146,10 +146,6 @@ h3 {
   align-items: center;
 }
 
-#mujer {
-  width: 100%;
-}
-
 #productoMujer .producto {
   padding: 15px;
 }
@@ -227,25 +223,6 @@ h3 {
   color: #fff;
   background-color: #3d3740;
   border: black;
-  box-shadow: none;
-}
-
-#contentPreguntas {
-  width: 100%;
-  margin-top: 70px;
-}
-#contentPreguntas .preguntasEstilo {
-  display: flex;
-  flex-direction: column;
-  width: 500px;
-  height: 500px;
-}
-#contentPreguntas .preguntasEstilo .cardEstiloPreguntas {
-  color: black;
-}
-#contentPreguntas .preguntasEstilo .cardEstiloPreguntas .btnCardPreguntas {
-  color: #6f5454;
-  text-decoration: none;
   box-shadow: none;
 }
 
