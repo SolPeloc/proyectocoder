@@ -25,10 +25,10 @@
 						<li class=" navItemEstilo"> <a class="nav-link" href="teens.html">Teens</a></li>
 				          <li class=" navItemEstilo"> <a class="nav-link" href="accesorios.html">Accesorios</a></li>
                       <li class=" navItemEstilo ml-5">
-                 <button type="button" class="btn px-0 py-0 border-0 btnCarrito" data-toggle="modal" data-target="#exampleModalCenter"><img class="iconoEstilo Traslado" src="../multimedia/carrito.png" alt="carrito">
+                 <button type="button" class="btn px-0 py-0 border-0 btnCarrito" data-toggle="modal" data-target="#exampleModal"><img class="iconoEstilo Traslado" src="../multimedia/carrito.png" alt="carrito">
             </button></li>
                          <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
            <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -41,7 +41,7 @@
             Tu carrito esta vacio
          </div>
         <div class="modal-footer">
-       <button type="button" class="btn btn-secondary btnContacto" data-dismiss="modal">Cerrar</button>  
+       <button type="button" class="btn btn-secondary " data-dismiss="modal">Cerrar</button>  
      </div>
    </div>
       </div>
@@ -74,17 +74,19 @@
                                <div class="form-group">
 							    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su mensaje"></textarea>
 							      </div> 
-                                  <!-- Button trigger modal -->
-							    <button type="button" class="btn btn-primary btnContacto" data-toggle="modal" data-target="#exampleModalCenter">
-							    ENVIAR
-							 </button>
+
+
+                               <!-- Button trigger modal -->
+							<button type="button" class="btn btn-primary btnContacto" data-toggle="modal" data-target="#staticBackdrop">
+							  Enviar
+							</button>
 
 							<!-- Modal -->
-							<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-							  <div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="contacto" aria-hidden="true">
+							  <div class="modal-dialog">
 							    <div class="modal-content">
 							      <div class="modal-header">
-							        <h5 class="modal-title" id="exampleModalCenterTitle">Mensaje enviado</h5>
+							        <h5 class="modal-title" id="staticBackdropLabel">Mensaje enviado</h5>
 							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							          <span aria-hidden="true">&times;</span>
 							        </button>
@@ -93,12 +95,12 @@
 							       ¡Gracias por contactarnos! Vamos a responderte apenas veamos tu mensaje.
 							      </div>
 							      <div class="modal-footer">
-							        <button type="button" class="btn btn-secondary btnContacto" data-dismiss="modal">Cerrar</button>
+							        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
 							        
 							      </div>
 							    </div>
 							  </div>
-							</div>
+							</div>  
                           </form>
 		   <div class=" py-5  flex-colum">
 		 	 <h5> Ubicación ATIA:</h5>
