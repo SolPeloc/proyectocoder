@@ -127,7 +127,6 @@ h3 {
 #coleccion .parrafoEstiloCard {
   padding-top: 15px;
   font-size: 1.3em;
-  text-align: justify;
   color: #29526a;
   font-weight: bold;
 }
@@ -176,7 +175,6 @@ h3 {
 #contentNosotros .parrafoEstilo {
   padding: 20px;
   font-size: 1.3em;
-  text-align: justify;
   color: #29526a;
   border-color: grey;
   border-style: double;
