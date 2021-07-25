@@ -1,18 +1,16 @@
 #contacto{
-   
-     
      width: 100%;
-
-
+       
       .contactoEstilo{
              display: inline-block;
+
             height:$height;
             margin-left: 40px;
            margin-right: 40px;
            margin-top:50px;
           .btnContacto{
-              color: #fff;
-              background-color:#3d3740;
+              color: $colorb;
+              background-color:$bcolor;
               border:black;
               box-shadow: none;
           }

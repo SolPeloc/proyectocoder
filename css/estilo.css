@@ -70,10 +70,6 @@ a {
   padding: 2em;
 }
 
-.headerNav {
-  color: #2176ff;
-}
-
 #Principal .contentPrincipal {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -143,7 +139,7 @@ h3 {
 #coleccion .cardEstilo {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
 #productoMujer .producto {
