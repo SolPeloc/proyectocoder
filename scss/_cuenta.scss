@@ -9,10 +9,8 @@
                 margin-top: 60px;
                 margin-bottom: 60px;
 					  .btnEstiloCuenta{
-
-										color: #fff;
-							    background-color:#3d3740;
-							    
+                  @include boton;
+										
 					  }
 
 			}

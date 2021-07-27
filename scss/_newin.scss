@@ -14,18 +14,13 @@
          font-weight: bold;
 }
         .btnEstiloCol{
-
-        	color:$colorb;
-		    background-color:$bcolor;
-		    border-color: black;
-        box-shadow: none;
+           @include boton;
+        
         }  
 
       .cardEstilo{
-          display:flex;
-          flex-direction: column;
-          justify-content: center;
-          
+         
+          width: 800px;
    }
 
     

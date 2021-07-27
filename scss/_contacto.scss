@@ -9,10 +9,11 @@
            margin-right: 40px;
            margin-top:50px;
           .btnContacto{
-              color: $colorb;
-              background-color:$bcolor;
+              @include boton;
               border:black;
-              box-shadow: none;
+              font-size: 1em;
+              font-style: italic;
+             
           }
 
           

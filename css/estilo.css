@@ -133,13 +133,10 @@ h3 {
 #coleccion .btnEstiloCol {
   color: #fff;
   background-color: #3d3740;
-  border-color: black;
   box-shadow: none;
 }
 #coleccion .cardEstilo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 800px;
 }
 
 #productoMujer .producto {
@@ -149,6 +146,7 @@ h3 {
   color: #fff;
   background-color: #3d3740;
   box-shadow: none;
+  border: black;
 }
 #productoMujer .textEstilo {
   font-size: 1.2rem;
@@ -167,6 +165,7 @@ h3 {
 #cuenta .cuentaEstilo .btnEstiloCuenta {
   color: #fff;
   background-color: #3d3740;
+  box-shadow: none;
 }
 
 #contentNosotros .NostrosEstilo {
@@ -218,8 +217,10 @@ h3 {
 #contacto .contactoEstilo .btnContacto {
   color: #fff;
   background-color: #3d3740;
-  border: black;
   box-shadow: none;
+  border: black;
+  font-size: 1em;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=estilo.css.map */

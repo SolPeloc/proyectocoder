@@ -7,10 +7,9 @@
 						}
 
 				.btnEstilo{
-					
-			color: #fff;
-		    background-color:#3d3740;
-		    box-shadow: none;
+					@include boton;
+					border:black;
+			
 				}	
 
 				.textEstilo{
