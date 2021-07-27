@@ -134,6 +134,7 @@ h3 {
   color: #fff;
   background-color: #3d3740;
   border-color: black;
+  box-shadow: none;
 }
 #coleccion .cardEstilo {
   display: flex;
@@ -147,6 +148,7 @@ h3 {
 #productoMujer .btnEstilo {
   color: #fff;
   background-color: #3d3740;
+  box-shadow: none;
 }
 #productoMujer .textEstilo {
   font-size: 1.2rem;

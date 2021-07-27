@@ -15,9 +15,10 @@
 }
         .btnEstiloCol{
 
-        	color: #fff;
-		    background-color:#3d3740;
+        	color:$colorb;
+		    background-color:$bcolor;
 		    border-color: black;
+        box-shadow: none;
         }  
 
       .cardEstilo{
