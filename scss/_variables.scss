@@ -8,3 +8,9 @@ $bcolor:#3d3740;
               background-color:$bcolor;
               box-shadow: none;
 }
+
+@mixin h1{
+	font-size:2em;
+    font-style:italic;
+    
+}

@@ -1,13 +1,15 @@
 #contacto{
      width: 100%;
+       .tituloContacto{
+        margin-left:100px;
+       }
        
       .contactoEstilo{
              display: inline-block;
-
-            height:$height;
-            margin-left: 40px;
-           margin-right: 40px;
-           margin-top:50px;
+             height:$height;
+             margin-left: 40px;
+             margin-right: 40px;
+             margin-top:50px;
           .btnContacto{
               @include boton;
               border:black;

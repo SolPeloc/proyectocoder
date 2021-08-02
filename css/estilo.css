@@ -139,6 +139,11 @@ h3 {
   width: 800px;
 }
 
+#productoMujer .tituloMujer {
+  font-size: 2em;
+  font-style: italic;
+  color: #3d3740;
+}
 #productoMujer .producto {
   padding: 15px;
 }
@@ -183,11 +188,15 @@ h3 {
   margin-top: 10px;
 }
 
+#contentGuia .tituloEstilo {
+  font-size: 2em;
+  font-style: italic;
+}
 #contentGuia .guiaEstilo {
   height: 500px;
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 800px;
   margin: 50px;
 }
 #contentGuia .guiaEstilo .cardEstilo {
@@ -206,6 +215,9 @@ h3 {
 
 #contacto {
   width: 100%;
+}
+#contacto .tituloContacto {
+  margin-left: 100px;
 }
 #contacto .contactoEstilo {
   display: inline-block;

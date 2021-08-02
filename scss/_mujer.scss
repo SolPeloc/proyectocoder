@@ -1,6 +1,9 @@
 
 #productoMujer {
-
+             .tituloMujer{
+             	@include h1;
+             	color: $bcolor;
+             }
 			.producto{
 						padding: 15px;
 
@@ -9,12 +12,12 @@
 				.btnEstilo{
 					@include boton;
 					border:black;
-			
 				}	
 
 				.textEstilo{
 					font-size: 1.2rem;
 				}
+				
 }
 
 
