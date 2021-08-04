@@ -140,9 +140,12 @@ h3 {
 }
 
 #productoMujer .tituloMujer {
-  font-size: 2em;
+  font-size: 1.5em;
   font-style: italic;
   color: #3d3740;
+  margin: 20px;
+  background-color: #e7c2ec;
+  padding: 5px;
 }
 #productoMujer .producto {
   padding: 15px;
@@ -189,8 +192,10 @@ h3 {
 }
 
 #contentGuia .tituloEstilo {
-  font-size: 2em;
+  font-size: 1.5em;
   font-style: italic;
+  margin: 15px;
+  background-color: #cceaea;
 }
 #contentGuia .guiaEstilo {
   height: 500px;
@@ -205,19 +210,15 @@ h3 {
 #contentGuia .guiaEstilo .cardEstilo .btnCard {
   color: #6f5454;
   text-decoration: none;
-  text-transform: uppercase;
+  font-size: 0.6em;
   box-shadow: none;
 }
 #contentGuia .guiaEstilo .cardEstilo .cardBodyEstilo {
-  font-size: large;
-  text-align: justify;
+  font-size: 1em;
 }
 
 #contacto {
   width: 100%;
-}
-#contacto .tituloContacto {
-  margin-left: 100px;
 }
 #contacto .contactoEstilo {
   display: inline-block;
@@ -233,6 +234,9 @@ h3 {
   border: black;
   font-size: 1em;
   font-style: italic;
+}
+#contacto .contactoEstilo .textareaEstilo {
+  resize: none;
 }
 
 /*# sourceMappingURL=estilo.css.map */

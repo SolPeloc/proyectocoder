@@ -1,27 +1,22 @@
-#coleccion{
+#coleccion
+{
 
-       .contentCol{
-         margin-top: 50px;
-
-       }
-
-         
- 
- .parrafoEstiloCard{
-          padding-top: 15px;
-         font-size:1.3em;
-        color:#29526a;
-         font-weight: bold;
-}
-        .btnEstiloCol{
-           @include boton;
-        
-        }  
-
-      .cardEstilo{
-         
-          width: 800px;
+   .contentCol{
+    margin-top: 50px;
    }
+
+ .parrafoEstiloCard{
+   padding-top: 15px;
+   font-size:1.3em;
+   color:#29526a;
+   font-weight: bold;
+}
+    .btnEstiloCol{
+       @include boton;  
+     }  
+      .cardEstilo{
+          width: 800px;
+      }
 
     
 }

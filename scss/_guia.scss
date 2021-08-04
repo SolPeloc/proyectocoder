@@ -1,33 +1,32 @@
-#contentGuia{
-         .tituloEstilo{
-         	@include h1;
+#contentGuia
+{
+   .tituloEstilo{
+     @include h1;
+      margin:15px;
+      background-color:#cceaea;
+     }
+	 .guiaEstilo{
+       height: 500px;
+	   display: flex;
+       flex-direction: column;
+       width: 800px;
+	   margin: 50px;
+		.cardEstilo{
+			 color: black;
 
-         }
-			   .guiaEstilo{
-                 height: 500px;
-			     display: flex;
-                 flex-direction: column;
-                 width: 800px;
-				  margin: 50px;
-					     .cardEstilo{
-							           color: black;
+		  .btnCard{
+			 color:#6f5454;
+			 text-decoration: none;
+			 font-size:0.6em;
+			 box-shadow: none; 
+			} 
 
-							        .btnCard{
-							            color:#6f5454;
-							            text-decoration: none;
-				                        text-transform: uppercase;
-				                        box-shadow: none; 
-							        } 
+		   .cardBodyEstilo{
+			font-size: 1em;				                 	  
+			}
 
-				                 .cardBodyEstilo{
-				                 	font-size: large;
-				                 	  text-align: justify;
-				                 }
-
-					     }
-
-					    
-
-			   }
+		  }
+				    
+	 }
 
 }

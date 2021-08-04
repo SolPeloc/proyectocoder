@@ -4,13 +4,13 @@ $bcolor:#3d3740;
 
 @mixin boton{
 
-	          color: $colorb;
-              background-color:$bcolor;
-              box-shadow: none;
+ color: $colorb;
+ background-color:$bcolor;
+ box-shadow: none;
 }
 
 @mixin h1{
-	font-size:2em;
+	font-size:1.5em;
     font-style:italic;
     
 }

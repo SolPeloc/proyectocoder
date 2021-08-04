@@ -1,130 +1,104 @@
-body {  
-    font-family:'Libre Baskerville', serif;
+body 
+  {  
+ font-family:'Libre Baskerville', serif;
   }
 
   .logoEstilo{
 	width: 150px;
+   }
 
-}
-
-  .iconoEstilo {
+  .iconoEstilo{
 	width: 50px;
 	height: 50px;
-  
-     padding: 10px;
-     transition:all 500ms;
-     &.Traslado:hover{
-         transform: scale(1.2);
-     }
+  padding: 10px;
+  transition:all 500ms;
+ &.Traslado:hover{
+  transform: scale(1.2);
+  }
      
 }
    
-
-
 #header{
+       ul li a{
+		   text-align: center;
+		   }
+		    ul li{
+		   list-style:none;
+		   display: inline-block;       
+		    }
 
-          ul li a{
-		            text-align: center;
-		       
-		             }
-
-
-		    ul li   {
-		                list-style:none;
-		                display: inline-block;   
-		              
-		            }
-
-
-           @media all and (max-width:700px){
-              .navbar{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-               .navbar-nav{
-                  display: inline-flex;
-                  flex-direction:column;
-                  .navItemEstilo{
+       @media all and (max-width:700px){
+         .navbar{
+           display: flex;
+           flex-direction: row;
+          justify-content: space-between;
+            .navbar-nav{
+            display: inline-flex;
+            flex-direction:column;
+               .navItemEstilo{
                padding: 1em;
                 margin-left: auto;
               }
-
             }
-              } 
-              .logoEstilo{
-                width: 80px;
-              }
-
-              
-
+        } 
+          .logoEstilo{
+           width: 80px;
+          }          
       }
 
        @media all and (min-width:701px){
-              .navbar{
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-               .navbar-nav{
-                  display: inline-flex;
-                  flex-direction:row;
-                  .navItemEstilo{
+          .navbar{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-between;
+            .navbar-nav{
+              display: inline-flex;
+              flex-direction:row;
+              .navItemEstilo{
                padding: 1em;
                 margin-left: auto;
-              }
-
-            }
-          } 
-                    
+             }
+          }
+        }               
       }
         .btnCarrito{
           box-shadow:none;
         }
 
 }
-
        a {
 		       text-decoration: none;
 		       font-size: 20px;
 		         color:#3b4a42;
 		     }
-
-             .navItemEstilo{
+      .navItemEstilo{
                padding: 2em;
-             
               }
 
       
-
    #Principal{
-      
       .contentPrincipal{
           margin-top: 50px;
-          margin-bottom: 50px;
-          
+          margin-bottom: 50px;   
       }
-
    }
   
  h3{
  	display:block;
- 
- margin-block-end: 0.67em;
-   text-align: center;
-   margin-top:1.2em;
+  margin-block-end: 0.67em;
+  text-align: center;
+  margin-top:1.2em;
  }
 
- #footer{
-        width: 100%;
-         height:120px;
-         
-         .contentFooter{
-     	      
-            width: 100%;
-    					
-        background: rgb(149,153,148);
-        background: linear-gradient(90deg, rgba(149,153,148,1) 0%, rgba(161,175,179,1) 41%, rgba(222,167,238,1) 100%);
-         
-         .navFooter{
+ #footer
+ {
+  width: 100%;
+  height:120px;
+    .contentFooter{
+      width: 100%;			
+      background: rgb(149,153,148);
+      background: linear-gradient(90deg, rgba(149,153,148,1) 0%, rgba(161,175,179,1) 41%, rgba(222,167,238,1) 100%); 
+        .navFooter{
           display: flex;
           flex-direction: row;
           justify-content: space-around;
@@ -138,7 +112,7 @@ body {
             justify-content: center;
          }
 
-         }
+    }
 
        @media all and (max-width:700px){
         
@@ -148,25 +122,17 @@ body {
            flex-wrap: unset;
            justify-content:center;
            align-items: center;
-           
-  
         }
-
-    }
+      }
 
       @media all and (min-width:750px){
-        
-      .contentFooter .navFooter{
+       .contentFooter .navFooter{
           display: flex;
           flex-direction: row;   
-           align-items: center;
-          
-          
-        }
-
+          align-items: center;  
        }
 
-         
-  }
+      }       
+}
          
  

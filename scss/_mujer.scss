@@ -1,22 +1,24 @@
 
-#productoMujer {
-             .tituloMujer{
-             	@include h1;
-             	color: $bcolor;
-             }
-			.producto{
-						padding: 15px;
+#productoMujer
+ {
+     .tituloMujer{
+      @include h1;
+       color: $bcolor;
+       margin: 20px;
+       background-color:#e7c2ec;
+       padding: 5px;
+      }
+	 .producto{
+	  padding: 15px;
+		}
 
-						}
-
-				.btnEstilo{
-					@include boton;
-					border:black;
-				}	
-
-				.textEstilo{
-					font-size: 1.2rem;
-				}
+		.btnEstilo{
+		 @include boton;
+		 border:black;
+		 }	
+		.textEstilo{
+		font-size: 1.2rem;
+		}
 				
 }
 
