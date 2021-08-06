@@ -196,13 +196,14 @@ h3 {
   font-style: italic;
   margin: 15px;
   background-color: #cceaea;
+  padding: 5px;
 }
 #contentGuia .guiaEstilo {
   height: 500px;
   display: flex;
   flex-direction: column;
   width: 800px;
-  margin: 50px;
+  margin-top: 10px;
 }
 #contentGuia .guiaEstilo .cardEstilo {
   color: black;

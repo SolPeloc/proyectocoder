@@ -4,13 +4,14 @@
      @include h1;
       margin:15px;
       background-color:#cceaea;
+      padding:5px;
      }
 	 .guiaEstilo{
        height: 500px;
 	   display: flex;
        flex-direction: column;
        width: 800px;
-	   margin: 50px;
+       margin-top: 10px;
 		.cardEstilo{
 			 color: black;
 
